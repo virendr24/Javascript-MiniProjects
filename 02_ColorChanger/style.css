@@ -1,0 +1,49 @@
+/* Basic Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease;
+}
+
+/* Container Styling */
+.container {
+  text-align: center;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+h1 {
+  color: #333;
+}
+
+/* Button Styling */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Color Code Text */
+#colorCode {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
